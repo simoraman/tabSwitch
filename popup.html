@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TS</title>
+    <script src="popup.js"></script>
+    <style>
+      #status { color: green; min-height: 20px; }
+      .hidden { visibility: hidden; }
+      body { width: 260px; }
+      div { margin-bottom: 20px; text-align: center; }
+      h1 { text-align: center; }
+      button { height: 30px; width: 80px; }
+      input { width: 35px; }
+    </style>
+  </head>
+  <body>
+    <h1>Tab Switcher</h1>
+    <div id="status"></div>
+    <div id="interval-div">
+        <label for="interval">Interval(seconds)</label>
+        &nbsp;
+        <input id="interval" type="number" />
+    </div>
+    <div>
+        <button id="doit">Start</button>
+    </div>
+  </body>
+</html>
